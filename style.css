@@ -1,0 +1,37 @@
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+button {
+  height: 25px;
+  width: 25px;
+  border-radius: 10px;
+  border-style: hidden;
+}
+.operators {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 90px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+#digit {
+  background-color: slategray;
+}
+#other,
+#empty {
+  background-color: rgb(73, 76, 80);
+}
+#operator {
+  background: orange;
+}
