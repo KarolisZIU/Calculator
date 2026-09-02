@@ -48,5 +48,5 @@ console.log(operate(10, 5, "/"));
 //const oneButton = document.getElementById("one");
 
 //oneButton.addEventListener("click", function () {
-input.textContent = input.textContent + "1";
+//input.textContent = input.textContent + "1";
 //});
