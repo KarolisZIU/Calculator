@@ -8,8 +8,9 @@
 .display {
   display: flex;
   border: 1px solid black;
+  border-radius: 5px;
   width: 120px;
-  height: 12px;
+  height: 15px;
 }
 button {
   height: 25px;
@@ -38,13 +39,16 @@ button {
   justify-content: center;
   gap: 5px;
 }
-#digit {
+.digit {
   background-color: slategray;
 }
 #other,
 #empty {
   background-color: rgb(73, 76, 80);
 }
-#operator {
+.operator {
+  background: orange;
+}
+#equals {
   background: orange;
 }
